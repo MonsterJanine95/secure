@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 1.1s ease;
+    transform: scale(1.1s);
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+/* Dark Mode */
+
+body{
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 19px;
+    box-shadow: 0 2px 5px #ffffff5d;
+    border-radius: 0px 0px 20px 20px;
+    height: 90px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    margin-left: 10px;
+}
+
+nav label{
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+nav ul li button{
+    background-color: transparent;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0px 2px;
+}
+
+nav ul li button{
+    background-color: black;
+}
+
+nav ul li button .bell{
+    font-size: 22px;
+    margin-left: 2px;
+}
+
+nav ul li .bell{
+    border: none;
+    background-color: transparent;
+}
+
+   /* Container */
+
+.area-container{
+    background-color: transparent;
+    height: 570px;
+    overflow-y: scroll;
+}
+
+.img-app{
+    margin-top: 20px;
+}
+
+.img-app img{
+    border-radius: 50%;
+    box-shadow: 0 1px 15px white;
+}
+
+.area-container .text{
+    margin-top: 10px
+}
+
+.area-container .text h4{
+    color: #d3d3d3;
+}
+
+.cards-item{
+    background-color: black;
+    box-shadow: 0 2px 8px white;
+    width: 155px;
+    height: 205px;
+    border-radius: 20px;
+}
+
+.cards-item ul li button{
+    background-color: transparent;
+    border: none;
+    margin-top: 5px;
+    width: 154px;
+    color: white;
+}
+
+.cards-item .img-social{
+    margin-top: 8px;
+}
+
+.cards-item .btn-start button{
+    width: 155px;
+    height: 60px;
+    border-radius: 0px 0px 20px 20px;
+    border: none;
+    background-color: black;
+    font-size: 22px;
+}
+
+.cards-social{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+   /* nav bar area */
+
+.nav-area ul{
+    position: fixed;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    align-items: center;
+    padding: 0px 25px;
+    box-shadow: 0 2px 7px white;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.nav-area ul li button{
+    background-color: transparent;
+    padding: 8px 10px;
+    border: none;
+}
+
+.mode-dark-light ul{
+    position: fixed;
+    display: flex;
+    right: 20px;
+    bottom: 95px;
+}
+
+.mode-dark-light ul li button{
+    padding: 6px 8px;
+    border-radius: 50%;
+    border: none;
+    background-color: black;
+    box-shadow: 0 1px 6px white;
+    transition: all 1.1s ease;
+}
